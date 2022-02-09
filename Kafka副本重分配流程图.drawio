@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T09:35:01.331Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="JKXjKCK-8csHm2tVcrzQ" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-09T09:51:25.818Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="UbAXkJ8hw-YjPu2wLkSb" version="16.5.4" type="github">
   <diagram id="SGd1aUE3qWEg3dzMmrBl" name="第 1 页">
     <mxGraphModel dx="946" dy="1758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,110 +83,138 @@
         <mxCell id="Vf_w9-UaPWHU4TDxyJZT-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="pypAnUREyRbXbRG19NKG-26" source="Vf_w9-UaPWHU4TDxyJZT-7" target="Vf_w9-UaPWHU4TDxyJZT-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="Vf_w9-UaPWHU4TDxyJZT-5" target="N63IB5sTqFhrjtHg4DNX-1">
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-46" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="340" y="-150" width="306" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-42" value="" style="group" vertex="1" connectable="0" parent="N63IB5sTqFhrjtHg4DNX-46">
+          <mxGeometry x="21" y="20" width="258.5" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="Vf_w9-UaPWHU4TDxyJZT-5" value="从zk中读取副本重分配任务,针对每个分区逐个处理" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=2;fontColor=#ffffff;container=0;" parent="N63IB5sTqFhrjtHg4DNX-42" vertex="1">
+          <mxGeometry x="24.5" y="100" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-1" value="topic是否等待被删除" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;container=0;" vertex="1" parent="N63IB5sTqFhrjtHg4DNX-42">
+          <mxGeometry x="12.5" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="N63IB5sTqFhrjtHg4DNX-42" source="Vf_w9-UaPWHU4TDxyJZT-5" target="N63IB5sTqFhrjtHg4DNX-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vf_w9-UaPWHU4TDxyJZT-5" value="从zk中读取副本重分配任务,针对每个分区逐个处理" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=2;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="326" y="-30" width="96" height="60" as="geometry" />
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-3" value="标记该Topic不可被删除" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;container=0;" vertex="1" parent="N63IB5sTqFhrjtHg4DNX-42">
+          <mxGeometry x="29.5" y="310" width="86" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-1" target="N63IB5sTqFhrjtHg4DNX-3">
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="N63IB5sTqFhrjtHg4DNX-42" source="N63IB5sTqFhrjtHg4DNX-1" target="N63IB5sTqFhrjtHg4DNX-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-5" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="N63IB5sTqFhrjtHg4DNX-4">
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-5" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;container=0;" vertex="1" connectable="0" parent="N63IB5sTqFhrjtHg4DNX-4">
           <mxGeometry x="-0.3333" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-1" target="N63IB5sTqFhrjtHg4DNX-27">
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-6" value="在zk和内存中更新最新的副本分配方式" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;container=0;" vertex="1" parent="N63IB5sTqFhrjtHg4DNX-42">
+          <mxGeometry x="29.5" y="380" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="N63IB5sTqFhrjtHg4DNX-42" source="N63IB5sTqFhrjtHg4DNX-3" target="N63IB5sTqFhrjtHg4DNX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-8" value="副本重分配是否已完成" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;container=0;" vertex="1" parent="N63IB5sTqFhrjtHg4DNX-42">
+          <mxGeometry x="8.5" y="450" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="N63IB5sTqFhrjtHg4DNX-42" source="N63IB5sTqFhrjtHg4DNX-6" target="N63IB5sTqFhrjtHg4DNX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-10" value="副本状态机将新增副本置为上线状态" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;container=0;" vertex="1" parent="N63IB5sTqFhrjtHg4DNX-42">
+          <mxGeometry x="28.5" y="570" width="87" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-11" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="N63IB5sTqFhrjtHg4DNX-42" source="N63IB5sTqFhrjtHg4DNX-8" target="N63IB5sTqFhrjtHg4DNX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-16" value="修改内存中当前副本数据" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;container=0;" vertex="1" parent="N63IB5sTqFhrjtHg4DNX-42">
+          <mxGeometry x="28.5" y="640" width="87" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="N63IB5sTqFhrjtHg4DNX-42" source="N63IB5sTqFhrjtHg4DNX-10" target="N63IB5sTqFhrjtHg4DNX-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-18" value="若原leader不在最终副本中，则须重新选举leader" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;container=0;" vertex="1" parent="N63IB5sTqFhrjtHg4DNX-42">
+          <mxGeometry x="29" y="710" width="87" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="N63IB5sTqFhrjtHg4DNX-42" source="N63IB5sTqFhrjtHg4DNX-16" target="N63IB5sTqFhrjtHg4DNX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-21" value="将需要删除的副本下线并删除" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;container=0;" vertex="1" parent="N63IB5sTqFhrjtHg4DNX-42">
+          <mxGeometry x="28.5" y="800" width="87" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="N63IB5sTqFhrjtHg4DNX-42" source="N63IB5sTqFhrjtHg4DNX-18" target="N63IB5sTqFhrjtHg4DNX-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-23" value="更新zk中的副本信息和broker元数据" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;container=0;" vertex="1" parent="N63IB5sTqFhrjtHg4DNX-42">
+          <mxGeometry x="28.5" y="870" width="87" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="N63IB5sTqFhrjtHg4DNX-42" source="N63IB5sTqFhrjtHg4DNX-21" target="N63IB5sTqFhrjtHg4DNX-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-25" value="释放对Topic的标记" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;container=0;" vertex="1" parent="N63IB5sTqFhrjtHg4DNX-42">
+          <mxGeometry x="28.5" y="940" width="87" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="N63IB5sTqFhrjtHg4DNX-42" source="N63IB5sTqFhrjtHg4DNX-23" target="N63IB5sTqFhrjtHg4DNX-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-27" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;container=0;" vertex="1" parent="N63IB5sTqFhrjtHg4DNX-42">
+          <mxGeometry x="161" y="940" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="N63IB5sTqFhrjtHg4DNX-42" source="N63IB5sTqFhrjtHg4DNX-1" target="N63IB5sTqFhrjtHg4DNX-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="830" as="targetPoint" />
+            <mxPoint x="258.5" y="960" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="560" y="100" />
-              <mxPoint x="560" y="830" />
+              <mxPoint x="258.5" y="230" />
+              <mxPoint x="258.5" y="960" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-1" value="topic是否等待被删除" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="314" y="60" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-3" target="N63IB5sTqFhrjtHg4DNX-6">
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="N63IB5sTqFhrjtHg4DNX-42" source="N63IB5sTqFhrjtHg4DNX-25" target="N63IB5sTqFhrjtHg4DNX-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-3" value="标记该Topic不可被删除" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="331" y="180" width="86" height="40" as="geometry" />
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-31" value="给RS中副本所在broker发送LeaderAndIsr请求" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;container=0;" vertex="1" parent="N63IB5sTqFhrjtHg4DNX-42">
+          <mxGeometry x="148.5" y="555" width="95" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-6" target="N63IB5sTqFhrjtHg4DNX-8">
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="N63IB5sTqFhrjtHg4DNX-42" source="N63IB5sTqFhrjtHg4DNX-8" target="N63IB5sTqFhrjtHg4DNX-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-6" value="在zk和内存中更新最新的副本分配方式" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="331" y="250" width="86" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-11" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-8" target="N63IB5sTqFhrjtHg4DNX-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-8" target="N63IB5sTqFhrjtHg4DNX-31">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-33" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="N63IB5sTqFhrjtHg4DNX-32">
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-33" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;container=0;" vertex="1" connectable="0" parent="N63IB5sTqFhrjtHg4DNX-32">
           <mxGeometry x="0.298" y="3" relative="1" as="geometry">
             <mxPoint x="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-8" value="副本重分配是否已完成" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="310" y="320" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-10" target="N63IB5sTqFhrjtHg4DNX-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-10" value="副本状态机将新增副本置为上线状态" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="330" y="440" width="87" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-16" target="N63IB5sTqFhrjtHg4DNX-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-16" value="修改内存中当前副本数据" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="330" y="510" width="87" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-18" target="N63IB5sTqFhrjtHg4DNX-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-18" value="若原leader不在最终副本中，则须重新选举leader" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="330.5" y="580" width="87" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-21" target="N63IB5sTqFhrjtHg4DNX-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-21" value="将需要删除的副本下线并删除" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="330" y="670" width="87" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-23" target="N63IB5sTqFhrjtHg4DNX-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-23" value="更新zk中的副本信息和broker元数据" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="330" y="740" width="87" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-25" target="N63IB5sTqFhrjtHg4DNX-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-25" value="释放对Topic的标记" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="330" y="810" width="87" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-27" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="462.5" y="810" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-31" target="N63IB5sTqFhrjtHg4DNX-34">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-31" value="给RS中副本所在broker发送LeaderAndIsr请求" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="450" y="425" width="95" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-34" target="N63IB5sTqFhrjtHg4DNX-27">
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="N63IB5sTqFhrjtHg4DNX-42" source="N63IB5sTqFhrjtHg4DNX-34" target="N63IB5sTqFhrjtHg4DNX-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="497.5" y="660" as="targetPoint" />
+            <mxPoint x="196" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-34" value="副本状态机将AR中所有副本置为NewReplica状态" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="450" y="525" width="95" height="55" as="geometry" />
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-34" value="副本状态机将AR中所有副本置为NewReplica状态" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;container=0;" vertex="1" parent="N63IB5sTqFhrjtHg4DNX-42">
+          <mxGeometry x="148.5" y="655" width="95" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="N63IB5sTqFhrjtHg4DNX-42" source="N63IB5sTqFhrjtHg4DNX-31" target="N63IB5sTqFhrjtHg4DNX-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-39" value="controller监听到zk节点&lt;br&gt;/admin/reassign_partitions&lt;br&gt;变化" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=2;fontColor=#ffffff;container=0;" vertex="1" parent="N63IB5sTqFhrjtHg4DNX-42">
+          <mxGeometry width="144" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="N63IB5sTqFhrjtHg4DNX-42" source="Vf_w9-UaPWHU4TDxyJZT-5" target="N63IB5sTqFhrjtHg4DNX-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-43" value="" style="swimlane;startSize=0;dashed=1;fontSize=15;fillColor=#007FFF;" vertex="1" parent="N63IB5sTqFhrjtHg4DNX-46">
+          <mxGeometry width="306" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-44" value="controller节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="N63IB5sTqFhrjtHg4DNX-46">
+          <mxGeometry x="101" y="1030" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-47" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=1.012;exitY=0.044;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.007;entryY=0.107;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pypAnUREyRbXbRG19NKG-26" target="N63IB5sTqFhrjtHg4DNX-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="220" as="sourcePoint" />
+            <mxPoint x="370" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="177" />
+              <mxPoint x="300" y="-37" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
