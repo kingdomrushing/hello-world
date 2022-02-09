@@ -1,1 +1,194 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T08:47:39.972Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="eBd2IUq12oV81qGPhFpu" version="16.5.4" type="github"><diagram id="SGd1aUE3qWEg3dzMmrBl" name="第 1 页">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</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-09T09:35:01.331Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="JKXjKCK-8csHm2tVcrzQ" version="16.5.4" type="github">
+  <diagram id="SGd1aUE3qWEg3dzMmrBl" name="第 1 页">
+    <mxGraphModel dx="946" dy="1758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pypAnUREyRbXbRG19NKG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pypAnUREyRbXbRG19NKG-1" target="pypAnUREyRbXbRG19NKG-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="85" y="20" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pypAnUREyRbXbRG19NKG-2" target="pypAnUREyRbXbRG19NKG-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-2" value="执行分区副本重分配脚本" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=2;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="80" y="90" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pypAnUREyRbXbRG19NKG-4" target="pypAnUREyRbXbRG19NKG-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-4" value="解析参数并校验数据" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=2;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="80" y="170" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" source="pypAnUREyRbXbRG19NKG-6" target="pypAnUREyRbXbRG19NKG-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-10" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="pypAnUREyRbXbRG19NKG-9" vertex="1" connectable="0">
+          <mxGeometry x="0.36" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-12" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" source="pypAnUREyRbXbRG19NKG-6" target="pypAnUREyRbXbRG19NKG-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-6" value="&lt;font style=&quot;font-size: 11px&quot;&gt;是否已有重&lt;br&gt;分配任务&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="250" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" source="pypAnUREyRbXbRG19NKG-8" target="pypAnUREyRbXbRG19NKG-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-8" value="打印当前分区副本分配方式" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="80" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="pypAnUREyRbXbRG19NKG-11" target="pypAnUREyRbXbRG19NKG-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-11" value="更新zk中broker下的限流信息" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="180" y="390" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vf_w9-UaPWHU4TDxyJZT-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="1" source="pypAnUREyRbXbRG19NKG-13" target="Vf_w9-UaPWHU4TDxyJZT-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-13" value="将针对Topic的限流写入zk中" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="430" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-26" value="" style="swimlane;startSize=0;fontSize=11;fillColor=#007FFF;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="150" width="250" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-29" value="&lt;font style=&quot;font-size: 15px&quot;&gt;客户端&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" parent="pypAnUREyRbXbRG19NKG-26" vertex="1">
+          <mxGeometry x="80" y="580" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pypAnUREyRbXbRG19NKG-19" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" parent="pypAnUREyRbXbRG19NKG-26" vertex="1">
+          <mxGeometry x="65" y="520" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vf_w9-UaPWHU4TDxyJZT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=15;" parent="pypAnUREyRbXbRG19NKG-26" source="pypAnUREyRbXbRG19NKG-19" target="pypAnUREyRbXbRG19NKG-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vf_w9-UaPWHU4TDxyJZT-7" value="将针对broker的限流写入zk中" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" parent="pypAnUREyRbXbRG19NKG-26" vertex="1">
+          <mxGeometry x="60" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vf_w9-UaPWHU4TDxyJZT-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="pypAnUREyRbXbRG19NKG-26" source="Vf_w9-UaPWHU4TDxyJZT-10" target="pypAnUREyRbXbRG19NKG-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vf_w9-UaPWHU4TDxyJZT-10" value="将分区重分配任务写到zk /admin/reassign_partitions节点" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" parent="pypAnUREyRbXbRG19NKG-26" vertex="1">
+          <mxGeometry x="27.5" y="420" width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vf_w9-UaPWHU4TDxyJZT-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="pypAnUREyRbXbRG19NKG-26" source="Vf_w9-UaPWHU4TDxyJZT-7" target="Vf_w9-UaPWHU4TDxyJZT-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="Vf_w9-UaPWHU4TDxyJZT-5" target="N63IB5sTqFhrjtHg4DNX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vf_w9-UaPWHU4TDxyJZT-5" value="从zk中读取副本重分配任务,针对每个分区逐个处理" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=2;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="326" y="-30" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-1" target="N63IB5sTqFhrjtHg4DNX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-5" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="N63IB5sTqFhrjtHg4DNX-4">
+          <mxGeometry x="-0.3333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-1" target="N63IB5sTqFhrjtHg4DNX-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="100" />
+              <mxPoint x="560" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-1" value="topic是否等待被删除" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="314" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-3" target="N63IB5sTqFhrjtHg4DNX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-3" value="标记该Topic不可被删除" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="331" y="180" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-6" target="N63IB5sTqFhrjtHg4DNX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-6" value="在zk和内存中更新最新的副本分配方式" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="331" y="250" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-11" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-8" target="N63IB5sTqFhrjtHg4DNX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-8" target="N63IB5sTqFhrjtHg4DNX-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-33" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="N63IB5sTqFhrjtHg4DNX-32">
+          <mxGeometry x="0.298" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-8" value="副本重分配是否已完成" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-10" target="N63IB5sTqFhrjtHg4DNX-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-10" value="副本状态机将新增副本置为上线状态" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="87" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-16" target="N63IB5sTqFhrjtHg4DNX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-16" value="修改内存中当前副本数据" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="510" width="87" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-18" target="N63IB5sTqFhrjtHg4DNX-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-18" value="若原leader不在最终副本中，则须重新选举leader" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330.5" y="580" width="87" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-21" target="N63IB5sTqFhrjtHg4DNX-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-21" value="将需要删除的副本下线并删除" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="670" width="87" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-23" target="N63IB5sTqFhrjtHg4DNX-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-23" value="更新zk中的副本信息和broker元数据" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="740" width="87" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-25" target="N63IB5sTqFhrjtHg4DNX-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-25" value="释放对Topic的标记" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="810" width="87" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-27" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="810" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-31" target="N63IB5sTqFhrjtHg4DNX-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-31" value="给RS中副本所在broker发送LeaderAndIsr请求" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="425" width="95" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N63IB5sTqFhrjtHg4DNX-34" target="N63IB5sTqFhrjtHg4DNX-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="497.5" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-34" value="副本状态机将AR中所有副本置为NewReplica状态" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="525" width="95" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
