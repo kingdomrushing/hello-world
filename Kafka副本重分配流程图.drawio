@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T08:28:39.134Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="MFWrwD_MQsr1WRjMe64C" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T08:56:42.111Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="qACMwGa6_ov40R3vqDsW" version="16.5.6" type="github">
   <diagram id="SGd1aUE3qWEg3dzMmrBl" name="第 1 页">
     <mxGraphModel dx="1426" dy="1995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -230,7 +230,7 @@
             <mxPoint x="445" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N63IB5sTqFhrjtHg4DNX-121" value="Controller监听到&lt;br&gt;/brokers/topics/{topicName}&lt;br&gt;/partitions/{partitionId}/state变化" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" parent="N63IB5sTqFhrjtHg4DNX-43" vertex="1">
+        <mxCell id="N63IB5sTqFhrjtHg4DNX-121" value="Controller监听到&lt;br&gt;/brokers/topics/{topicName}&lt;br&gt;/partitions/{分区号}/state变化" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" parent="N63IB5sTqFhrjtHg4DNX-43" vertex="1">
           <mxGeometry x="370" y="30" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N63IB5sTqFhrjtHg4DNX-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="N63IB5sTqFhrjtHg4DNX-43" source="N63IB5sTqFhrjtHg4DNX-126" edge="1">
